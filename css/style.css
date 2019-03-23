@@ -1,0 +1,354 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+html {
+    padding: 30px 0 0 0;
+}
+
+
+/*Navigation*/
+nav {
+    margin-bottom: 32px;
+}
+
+.menu {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0 0 0 200px;
+}
+
+.menu_items>a {
+    text-decoration: none;
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+    line-height: 2;
+    vertical-align: -13px;
+
+}
+
+.logo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    font-size: 30px;
+    margin: 0 530px 0 0;
+    color: rgb(85, 82, 82);
+}
+
+.menu>li {
+    display: inline-block;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.menu_items:nth-child(-n+6) {
+    margin-right: 2vw;
+}
+
+.logo::before {
+    content: "M";
+    color: rgb(26, 188, 156);
+    font-weight: 700;
+}
+
+.menu_items:hover>a {
+    color: rgb(26, 188, 156);
+}
+
+/*second section*/
+
+.main_picture {
+    background-image: url(../img/top_level.png);
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    position: relative;
+}
+
+.middle_box {
+    position: absolute;
+    top: 40%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+
+}
+
+.tours {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 55px;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    width: 80vw;
+}
+
+.tours {
+    contant: "AFFORDABLE";
+    font-weight: 700;
+}
+
+.tours_info {
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    display: block;
+    font-size: 22px;
+    margin: -20px 0 0 145px;
+}
+
+.tours::before {
+    content: "\276E";
+    width: 100px;
+    height: 100px;
+    background-color: rgba(26, 188, 156, 0.635);
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    font-size: 80px;
+    line-height: 1.2;
+    vertical-align: -20px;
+    text-align: center;
+    margin: 0 4% 0 0;
+}
+
+.tours::after {
+    content: "\276F";
+    width: 100px;
+    height: 100px;
+    background-color: rgba(26, 188, 156, 0.635);
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    font-size: 80px;
+    line-height: 1.2;
+    vertical-align: -20px;
+    text-align: center;
+    margin: 0px 0 0 4%;
+}
+
+/*cloths section*/
+
+.collection {
+    width: 100%;
+    background-color: rgb(233, 240, 253);
+    padding-bottom: 100px;
+}
+
+.new {
+    margin: 100px 0 80px 500px;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    color: rgb(85, 82, 82);
+}
+
+.new::after {
+    content: "";
+    width: 150px;
+    height: 7px;
+    background-color: rgb(26, 188, 156);
+    display: block;
+    margin: 20px 0 0 110px;
+}
+
+.cloths:hover .description {
+    background-color: rgb(26, 188, 156);
+}
+
+.cloths:hover .price {
+    background-color: rgb(127, 217, 199);
+}
+
+.cloths {
+    float: left;
+    margin: 0 2em 2em 0;
+    position: relative;
+}
+
+.items {
+    margin-left: 10%;
+}
+
+.description:hover {
+    background-color: rgb(26, 188, 156);
+}
+
+.price:hover {
+    background-color: rgb(26, 188, 156);
+}
+
+.description,
+.price {
+    display: inline-block;
+}
+
+.description {
+    background-color: rgb(50, 50, 50);
+    color: rgb(255, 255, 255);
+    width: 191px;
+    height: 40px;
+    margin: 0px 0 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    vertical-align: bottom;
+    padding-left: 10px;
+    line-height: 2;
+    vertical-align: -10px;
+    text-align: center;
+}
+
+.price {
+    width: 54px;
+    height: 40px;
+    margin: 0px 0 0 -4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    background-color: rgb(140, 140, 140);
+    line-height: 2;
+    vertical-align: -10px;
+    text-align: center;
+}
+
+.photo1 {
+    background-image: url(../img/category-1.png);
+    background-size: cover;
+    width: 255px;
+    height: 280px;
+}
+
+.photo2 {
+    background-image: url(../img/category-2.png);
+    background-size: cover;
+    width: 255px;
+    height: 280px;
+}
+
+.photo3 {
+    background-image: url(../img/category-3.png);
+    background-size: cover;
+    width: 255px;
+    height: 280px;
+}
+
+.photo4 {
+    background-image: url(../img/category-4.png);
+    background-size: cover;
+    width: 255px;
+    height: 280px;
+}
+
+/*Inner menu. Hover*/
+
+.inner_menu {
+    width: 90%;
+    height: 260px;
+    background-color: rgba(0, 0, 0, 0.376);
+    position: absolute;
+    top: 44%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+.hover:hover>.inner_menu {
+    display: block;
+}
+
+.cart {
+    width: 165px;
+    height: 50px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(50, 50, 50);
+}
+
+.adding {
+    display: inline-block;
+    font-family: "Open Sans";
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    margin-left: 18px;
+    line-height: 2;
+    vertical-align: 8px;
+
+}
+
+.heart,
+.clock,
+.arrows {
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 6px 6px 6px 6px;
+    position: absolute;
+}
+
+.cart {
+    position: absolute;
+    top: 50%;
+    left: 14%;
+}
+
+.cart_img {
+    margin: 10px 0 0 10px;
+
+}
+
+.heart {
+    top: 30%;
+    left: 14%;
+}
+
+.arrows {
+    top: 30%;
+    left: 41%;
+}
+
+.clock {
+    top: 30%;
+    left: 67.5%;
+}
+
+.heart:hover {
+    background-color: rgb(26, 188, 156);
+}
+
+.arrows:hover {
+    background-color: rgb(26, 188, 156);
+}
+
+.clock:hover {
+    background-color: rgb(26, 188, 156);
+}
+
+.cart:hover {
+    background-color: rgb(26, 188, 156);
+}
+
+/*Footer*/
+
+footer {
+    background-color: rgb(50, 50, 50);
+    height: 88px;
+}
+
+footer>p {
+    color: rgb(255, 255, 255);
+    font-family: "Open Sans";
+    font-size: 16px;
+    text-align: center;
+    line-height: 5;
+    vertical-align: -10px;
+}
+
+p>span {
+    color: rgb(26, 188, 156);
+}
