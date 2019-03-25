@@ -128,7 +128,7 @@ nav {
     line-height: 1.2;
     vertical-align: -20px;
     text-align: center;
-    margin: 0px 0 0 4%;
+    margin: 0 0 0 4%;
 }
 
 /*cloths section*/
@@ -140,8 +140,9 @@ nav {
 }
 
 .new {
-    margin: 100px 0 80px 500px;
-    display: inline-block;
+    margin: 100px 0 80px 0px;
+    text-align: center;
+    /* display: inline-block; */
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
     font-size: 40px;
@@ -154,7 +155,7 @@ nav {
     height: 7px;
     background-color: rgb(26, 188, 156);
     display: block;
-    margin: 20px 0 0 110px;
+    margin: 20px auto;
 }
 
 .cloths:hover .description {
